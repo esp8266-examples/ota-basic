@@ -24,6 +24,8 @@ After installing Arduino Software (1.6.7 version or later) we’ll need to updat
 Open up Arduino, then go to the Preferences (**File > Preferences**). Then, towards the bottom of the window, copy this URL into the “Additional Board Manager URLs” text box:
   http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
+![Arduino Settings IMG](./img/arduino-board-manager-link.png?raw=true "Add Board Manager URL")
+
 
 
 
