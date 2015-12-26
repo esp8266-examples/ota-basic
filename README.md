@@ -5,7 +5,7 @@ The sketch inside 'ota-basic' folder makes the esp8266 updateable via OTA over W
 The esp8266 can be reprogramed even without a flashing circuit.
 
 #Contents
-  * [Prerequisites](#prerequisites)
+  * [Prerequisites and limitations](#prerequisites-and-limitations)
   * [Installing software with Boards Manager](#installing-software-with-boards-manager)
   * [Flashing the esp8266 for the first time](#flashing-the-esp8266-for-the-first-time)
   * [OTA programming](#ota-programming)
@@ -15,11 +15,15 @@ The esp8266 can be reprogramed even without a flashing circuit.
 
 
 
-#Prerequisites:
+#Prerequisites and limitations:
 To use this sketch you need:
   - An esp8266 board
   - Arduino software 1.6.7 or later [Download here](https://www.arduino.cc/en/Main/Software)
   - An esp8266 programmer (only to flash the esp8266 the first time)
+
+If you edit this sketch, you must consider that, to make OTA work:
+  - The sketch compiled size cannot be greater than 50% of the esp8266 memory
+  - If you use File System Wrapper, you maximun sketch size must be: (TotalMemory-FilesystemSize)/2
 
 #Installing software with Boards Manager
  * Install the Arduino Software (1.6.7 version or later)
