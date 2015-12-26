@@ -48,6 +48,7 @@ And set the configutarion of your programming circuit:
  - Board: If you don't know which is yours then select 'Generic ESP8266 module'
  - Port: The COM port of your programmer
  - Speed: 115200
+ -
  <p align="center"><img src ="./img/arduino-upload-speed.png?raw=true"></p>
 
  Now, we can upload the sketch to de esp8266.
