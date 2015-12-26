@@ -5,12 +5,14 @@ This sketch makes esp8266 to be updateable via OTA over WIFI. Aditionally, it ma
 The esp8266 can be reprogramed even without a flashing circuit.
 
 #Contents
-  * Prerequisites
-  * Installing software with Boards Manager
-  * Flashing the esp8266 for the first time
+  * [Prerequisites](#prerequisites)
+  * [Installing software with Boards Manager](#installing-software-with-boards-manager)
+  * [Flashing the esp8266 for the first time](#flashing-the-esp8266-for-the-first-time)
   * Issues and support
   * Contributing
   * License and credits
+
+
 
 #Prerequisites:
 To use this sketch you need:
@@ -42,7 +44,7 @@ You'll need to edit the sketch to set your WIFI configuration. Change the 'ssid'
  <p align="center"><img src ="./img/arduino-sketch-edit.png?raw=true"></p>
 
 And set the configutarion of your programming circuit:
- - Board: If you don't know wich is yours then select 'Generic ESP8266 module'
+ - Board: If you don't know which is yours then select 'Generic ESP8266 module'
  - Port: The COM port of your programmer
  - Speed: 115200
  <p align="center"><img src ="./img/arduino-upload-speed.png?raw=true"></p>
