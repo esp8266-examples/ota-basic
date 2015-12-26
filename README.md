@@ -20,25 +20,16 @@ To use this sketch you need:
   - Arduino software 1.6.7 or later [Download here](https://www.arduino.cc/en/Main/Software)
 
 #Installing software with Boards Manager
-After installing Arduino Software (1.6.7 version or later) we’ll need to update the board manager with a custom URL.
-Open up Arduino, then go to the Preferences (**File > Preferences**). Then, towards the bottom of the window, copy this URL into the “Additional Board Manager URLs” text box:
+ * Install the Arduino Software (1.6.7 version or later)
+ * Update Board Manager with custom URL:Open up Arduino, then go to the Preferences (**File > Preferences**). Then, towards the bottom of the window, copy this URL into the “Additional Board Manager URLs” text box:
+
   http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-![Arduino Settings IMG](./img/arduino-board-manager-link.png?raw=true "Add Board Manager URL")
+ <p align="center"><img src ="./img/arduino-board-manager-link.png?raw=true"></p>
 
-
-
-
-To begin, we’ll need to update the board manager with a custom URL. Open up Arduino, then go to the Preferences (File > Preferences). Then, towards the bottom of the window, copy this URL into the “Additional Board Manager URLs” text box:
-
-COPY CODEhttp://arduino.esp8266.com/stable/package_esp8266com_index.json
-If you already have a URL in there, and want to keep it, you can separate multiple URLs by placing a comma between them. (Arduino 1.6.5 added an expanded text box, separate links in here by line.)
-
-Adding Board Manager URL to Arduino preferences
-
-
-
-#Install Arduino software from the Arduino website.
-Start Arduino and open Preferences window.
-Enter http://arduino.esp8266.com/stable/package_esp8266com_index.json into Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
-Open Boards Manager from Tools > Board menu and install esp8266 platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation).
+ Note: You can add multiple URLs, separating them with commas.
+ 
+ * Open Boards Manager from **Tools > Board** menu and install esp8266 platform (and don't forget to select your ESP8266 board from **Tools > Board** menu after installation).
+ 
+ <p align="center"><img src ="./img/arduino-board-install.png?raw=true"></p>
+ <p align="center"><img src ="./img/arduino-board-select.png?raw=true"></p>
