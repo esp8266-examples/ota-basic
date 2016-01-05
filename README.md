@@ -1,8 +1,9 @@
 # ota-basic
 OTA basic example for the esp8266
 
-The sketch inside 'ota-basic' folder makes the esp8266 updateable via OTA over WIFI. Aditionally, it makes a led blink on pin 2 to check that the esp8266 is running.
-The esp8266 can be reprogramed even without a flashing circuit.
+The sketch inside 'ota-basic' folder enables Arduino Software to load a new sketch into the ESP8266 over a WIFI connection (without a programmer or a USB-Serial adapter).
+
+Aditionally, it makes a led blink on pin 2 to check that the ESP8266 is running.
 
 #Contents
   * [Prerequisites and limitations](#prerequisites-and-limitations)
